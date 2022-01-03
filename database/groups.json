@@ -67,5 +67,24 @@
   "description": "Una descripcion",
   "repository": "https:/un-repositorio",
   "id": 10
+ },
+ {
+  "name": "Un nomre",
+  "description": "Una descripción",
+  "repository": "https:/un-repositorio",
+  "id": 11
+ },
+ {
+  "name": "Otro grupo mas",
+  "description": "Otro grupo para revisar",
+  "repository": "https:/un-repositorio2",
+  "id": 12
+ },
+ {
+  "name": "Un grupo mas para variar",
+  "description": "Este debería de mostrar mas información",
+  "repository": "https:/un-repositorio3",
+  "image": "group-1641120942774.png",
+  "id": 13
  }
 ]

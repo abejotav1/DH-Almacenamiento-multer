@@ -15,12 +15,19 @@ module.exports = {
         res.render('groups/create');
     },
     store: (req, res) => {
+        if(req.file){
 
         let group = req.body;
+
+        group.image=req.file.filename;
 
         groupId = groupsModel.create(group);
 
         res.redirect('/groups/' + groupId);
+        
+        }else{
+            res.render('groups/create');
+        }
     },
     edit: (req, res) => {
         let group = groupsModel.find(req.params.id)
